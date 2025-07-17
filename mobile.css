@@ -45,8 +45,8 @@
         display: none;
         border-radius: 20px;
         transition: 3s cubic-bezier(0.4, 0, 1, 1);
-        /* transition-delay: 1s; */
-        position: fixed;
+        transition-delay: 1s;
+        /* position: fixed; */
         top: -59px;
         
     }
@@ -54,7 +54,7 @@
         background-color: hsl(0, 0%, 100%);
         display: flex;
         /* right: 0px; */
-        top: 110px;
+        /* top: 110px; */
         
     }
 

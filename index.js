@@ -3,10 +3,12 @@ const hamburger= document.querySelector('#hamburger');
 let image1= true;
 const accordion = document.getElementsByClassName('accordion');
 
+
 hamburger.addEventListener('click', () => {
     menu.classList.toggle('active');
     image1=!image1;
     hamburger.src = image1?'./images/icon-hamburger.svg' :'./images/icon-close.svg ';
+    
  
 });
 
